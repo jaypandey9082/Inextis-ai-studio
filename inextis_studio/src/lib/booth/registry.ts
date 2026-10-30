@@ -54,6 +54,14 @@ const pathExtent = (p: Part["p"]) => {
   return { w: 2 * r, d: 2 * r, h: Math.max(n(p, "z0"), n(p, "z1")) + n(p, "height") };
 };
 
+// Roof: how deep the top is for each style, and the downlight grid (about one per 2 m)
+export const roofDepth = (style: string) => (style === "pergola" ? 0.25 : style === "fabric" ? 0.12 : 0.3);
+export const roofLights = (p: Part["p"]) => {
+  const nx = Math.max(1, Math.round(n(p, "w") / 2));
+  const ny = Math.max(1, Math.round(n(p, "d") / 2));
+  return { nx, ny, count: nx * ny };
+};
+
 export const PARTS: PartDef[] = [
   /* ---------------- Structure ---------------- */
   {
@@ -143,6 +151,39 @@ export const PARTS: PartDef[] = [
       line("Furniture", "Meeting table", 1, "nos", "table"),
       line("Furniture", "Chair", 4, "nos", "chair"),
     ],
+  },
+  {
+    type: "roof",
+    label: "Roof / canopy",
+    group: "Structure",
+    hint: "Overhead cover for a lounge or meeting area: flat ceiling, timber pergola or fabric canopy, on corner posts",
+    defaults: { w: 4, d: 3, z: 3, style: "flat", posts: true, lights: true },
+    params: [
+      W(1, 30),
+      { key: "d", label: "Depth", kind: "number", min: 1, max: 30, step: 0.1, unit: "m" },
+      Z("Underside height"),
+      { key: "style", label: "Style", kind: "select", options: ["flat", "pergola", "fabric"] },
+      { key: "posts", label: "Corner posts", kind: "bool" },
+      { key: "lights", label: "Downlights", kind: "bool" },
+    ],
+    extent: (p) => ({ w: n(p, "w"), d: n(p, "d"), h: n(p, "z") + roofDepth(s(p, "style", "flat")) }),
+    boq: ({ name, p }) => {
+      const [w, d] = [n(p, "w"), n(p, "d")];
+      const size = `${fmt(w)}x${fmt(d)} m`;
+      const style = s(p, "style", "flat");
+      const out =
+        style === "pergola"
+          ? [line("Fabrication", `${name} timber pergola ${size} (${Math.floor(w / 0.3)} slats)`, w * d * SQFT, "sq ft", "pergola_sqft")]
+          : style === "fabric"
+            ? [line("Fabrication", `${name} stretch fabric canopy ${size} with frame`, w * d * SQFT, "sq ft", "fabric_canopy_sqft")]
+            : [
+                line("Fabrication", `${name} flat roof ${size}`, w * d * SQFT, "sq ft", "fabrication_sqft"),
+                line("Fabrication", `${name} roof fascia ${fmt(2 * (w + d))} m`, 2 * (w + d) * roofDepth(style) * SQFT, "sq ft", "fabrication_sqft"),
+              ];
+      if (b(p, "posts")) out.push(line("Fabrication", `${name} roof post ${fmt(n(p, "z"))} m`, 4, "nos", "column"));
+      if (b(p, "lights")) out.push(line("Lighting", `${name} downlight`, roofLights(p).count, "nos", "light_fixture"));
+      return out;
+    },
   },
 
   /* ---------------- LED and AV ---------------- */

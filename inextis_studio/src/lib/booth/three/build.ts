@@ -3,6 +3,7 @@
 
 import * as THREE from "three";
 import { resolvePath, type Pt } from "../paths";
+import { roofDepth, roofLights } from "../registry";
 import type { Part, Plan, Rgb } from "../schema";
 import { colourMat, mat, textMaterial, type MatName } from "./materials";
 
@@ -216,6 +217,43 @@ export function buildPart(part: Part, ctx: BuildCtx): THREE.Group {
       for (let i = 0; i < 4; i++) {
         const a = (Math.PI / 2) * i + Math.PI / 4;
         chair(g, `${nm}_chair${i}`, 0.75 * Math.cos(a), 0.75 * Math.sin(a), ph, a - Math.PI / 2, [0.92, 0.92, 0.93], plan);
+      }
+      break;
+    }
+    case "roof": {
+      const [w, d, z] = [n(p, "w"), n(p, "d"), n(p, "z")];
+      const style = s(p, "style", "flat");
+      const t = roofDepth(style);
+      // the overhead pieces are tagged so the floor-plan view can hide them
+      const top = (o: THREE.Mesh) => (o.userData.canopy = true);
+      if (style === "pergola") {
+        const wood = M("Oak");
+        top(box(g, `${nm}_beamF`, [w, 0.12, t], [0, -d / 2 + 0.06, z + t / 2], wood));
+        top(box(g, `${nm}_beamB`, [w, 0.12, t], [0, d / 2 - 0.06, z + t / 2], wood));
+        top(box(g, `${nm}_beamL`, [0.12, d, t], [-w / 2 + 0.06, 0, z + t / 2], wood));
+        top(box(g, `${nm}_beamR`, [0.12, d, t], [w / 2 - 0.06, 0, z + t / 2], wood));
+        const slats = Math.floor(w / 0.3);
+        for (let i = 1; i < slats; i++) top(box(g, `${nm}_slat${i}`, [0.05, d - 0.24, 0.18], [-w / 2 + (w * i) / slats, 0, z + t - 0.09], wood));
+      } else if (style === "fabric") {
+        const frame = M("Chrome");
+        for (const [sx, sy, len, along] of [[0, -1, w, "x"], [0, 1, w, "x"], [-1, 0, d, "y"], [1, 0, d, "y"]] as const)
+          top(box(g, `${nm}_frame`, along === "x" ? [len, 0.05, 0.05] : [0.05, len, 0.05], [(sx * w) / 2, (sy * d) / 2, z + 0.025], frame));
+        top(box(g, nm, [w, d, 0.02], [0, 0, z + t - 0.01], colourMat("Fabric", [0.96, 0.96, 0.95], { roughness: 0.85 })));
+      } else {
+        top(box(g, nm, [w, d, t], [0, 0, z + t / 2], M("Laminate")));
+      }
+      if (p.posts) {
+        const ix = w / 2 - 0.1;
+        const iy = d / 2 - 0.1;
+        for (const [cx, cy] of [[-ix, -iy], [ix, -iy], [-ix, iy], [ix, iy]]) {
+          if (style === "pergola") box(g, `${nm}_post`, [0.12, 0.12, z - ph], [cx, cy, (z + ph) / 2], M("Oak"));
+          else cylinder(g, `${nm}_post`, 0.06, z - ph, [cx, cy, (z + ph) / 2], M(style === "fabric" ? "Chrome" : "Laminate"), 16);
+        }
+      }
+      if (p.lights) {
+        const { nx, ny } = roofLights(p);
+        for (let i = 0; i < nx; i++)
+          for (let j = 0; j < ny; j++) top(cylinder(g, `${nm}_light${i}${j}`, 0.07, 0.02, [-w / 2 + (w * (i + 0.5)) / nx, -d / 2 + (d * (j + 0.5)) / ny, z - 0.01], M("Glow"), 16));
       }
       break;
     }

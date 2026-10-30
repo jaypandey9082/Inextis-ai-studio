@@ -4,6 +4,8 @@
   "fabrication_sqft": 320,
   "wood_fabrication_sqft": 420,
   "curved_fabrication_sqft": 650,
+  "pergola_sqft": 260,
+  "fabric_canopy_sqft": 220,
   "slat_wall_sqft": 380,
   "moss_wall_sqft": 450,
   "grass_carpet_sqft": 70,

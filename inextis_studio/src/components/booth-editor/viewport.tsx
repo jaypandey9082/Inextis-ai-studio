@@ -39,11 +39,13 @@ const PartNode = memo(function PartNode({
   part,
   plan,
   font,
+  planView,
   onRef,
 }: {
   part: Part;
   plan: Plan;
   font: string;
+  planView: boolean;
   onRef: (id: string, o: THREE.Group | null) => void;
 }) {
   const select = useEditor((s) => s.select);
@@ -66,6 +68,47 @@ const PartNode = memo(function PartNode({
     ],
   );
   useEffect(() => () => disposeTree(content), [content]);
+  // In the floor plan a roof would hide everything under it, so draw it as a light
+  // tint with a dashed outline that lets clicks through to the parts below
+  const outline = useMemo(() => {
+    if (part.type !== "roof") return null;
+    const e = PART_MAP.roof.extent(part.p);
+    const [hw, hd] = [e.w / 2, e.d / 2];
+    const g = new THREE.Group();
+    const edge = new THREE.LineLoop(
+      new THREE.BufferGeometry().setFromPoints([[-hw, -hd], [hw, -hd], [hw, hd], [-hw, hd]].map(([x, y]) => new THREE.Vector3(x, y, e.h + 0.05))),
+      new THREE.LineDashedMaterial({ color: "#f5a524", dashSize: 0.25, gapSize: 0.15 }),
+    );
+    edge.computeLineDistances();
+    const fill = new THREE.Mesh(
+      new THREE.PlaneGeometry(e.w, e.d),
+      new THREE.MeshBasicMaterial({ color: "#f5a524", transparent: true, opacity: 0.3, depthWrite: false }),
+    );
+    fill.position.z = e.h + 0.04;
+    for (const o of [edge, fill]) {
+      o.raycast = () => {};
+      g.add(o);
+    }
+    return g;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [part.type, JSON.stringify(part.p)]);
+  useEffect(
+    () => () =>
+      outline?.traverse((o) => {
+        const m = o as THREE.Mesh;
+        m.geometry?.dispose();
+        (m.material as THREE.Material | undefined)?.dispose();
+      }),
+    [outline],
+  );
+  useEffect(() => {
+    content.traverse((o) => {
+      if (!o.userData.canopy) return;
+      // hidden meshes still catch clicks, so switch picking off too
+      o.visible = !planView;
+      o.raycast = planView ? () => {} : THREE.Mesh.prototype.raycast;
+    });
+  }, [content, planView]);
   return (
     <group
       ref={(o) => onRef(part.id, o)}
@@ -77,6 +120,7 @@ const PartNode = memo(function PartNode({
       }}
     >
       <primitive object={content} />
+      {outline && planView && <primitive object={outline} />}
     </group>
   );
 });
@@ -346,6 +390,7 @@ export function Viewport({ readOnly = false }: { readOnly?: boolean }) {
                 part={p}
                 plan={plan}
                 font={font}
+                planView={view === "plan"}
                 onRef={onRef}
               />
             ))}

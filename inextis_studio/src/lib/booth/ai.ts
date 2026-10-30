@@ -54,6 +54,7 @@ DESIGN RULES (Indian exhibition stands):
 - Include a lockable storage room on stands over about 30 m²: a block (e.g. 2.5 × 2 m) plus a door part on its front face.
 - Use one strong focal element (LED ring, tower with LED, or story wall). LED screens snap to 0.5 m cabinet sizes.
 - Match the brief's zones (demo, lounge, meeting, presentation) and scale furniture to the area. Use brand lettering for the brand name on a tower, fascia or LED. Add plants where the brief is green.
+- Add a roof only where the brief asks for a covered lounge, meeting or VIP area, never over the whole stand; keep its underside at least 2.7 m high and its top under the height limit.
 - Prefer fewer, well-placed parts over clutter: typically 15–40 parts.`;
 
 let exampleCache: string | null = null;
