@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-canvas: #f6f4f0;
+  --color-surface: #ffffff;
+  --color-sunken: #efece6;
+  --color-line: #e6e1d9;
+  --color-line-strong: #d3cdc2;
+  --color-ink: #151515;
+  --color-ink-2: #45423c;
+  --color-muted: #8a857b;
+  --color-accent: #ee8022;
+  --color-accent-deep: #c9650f;
+  --color-accent-soft: #fdf0e3;
+  --color-good: #2f7d5b;
+  --color-good-soft: #e6f2ec;
+  --color-warn: #b7791f;
+  --color-warn-soft: #fbf1dc;
+  --color-bad: #b84a3a;
+  --color-bad-soft: #f8e7e3;
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-jost);
+}
+
+html {
+  background: var(--color-canvas);
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-jost), sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  .display {
+    font-family: var(--font-jost), sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+  }
+  .card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: 20px;
+  }
+  .num {
+    font-family: var(--font-jost), sans-serif;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.01em;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 999px;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 999px;
+    padding: 9px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.15s;
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .btn-dark {
+    background: var(--color-ink);
+    color: #fff;
+  }
+  .btn-dark:hover {
+    background: #2a2a2a;
+  }
+  .btn-accent {
+    background: var(--color-accent);
+    color: #fff;
+  }
+  .btn-accent:hover {
+    background: var(--color-accent-deep);
+  }
+  .btn-ghost {
+    border: 1px solid var(--color-line-strong);
+    color: var(--color-ink);
+    background: var(--color-surface);
+  }
+  .btn-ghost:hover {
+    border-color: var(--color-ink);
+  }
+  .field {
+    width: 100%;
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    border-radius: 14px;
+    padding: 10px 14px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .field:focus {
+    border-color: var(--color-ink);
+    box-shadow: 0 0 0 3px rgb(21 21 21 / 0.06);
+  }
+}
+
+/* Dot texture that echoes the Inextis mark */
+.dots-bg {
+  background-image: radial-gradient(rgb(21 21 21 / 0.09) 1.2px, transparent 1.3px);
+  background-size: 14px 14px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(238 128 34 / 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgb(238 128 34 / 0);
+  }
+}
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+}
+
+.scroll-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 99px;
+}

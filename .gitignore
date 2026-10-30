@@ -1,0 +1,28 @@
+# Only the app and the Blender scripts belong in this repo; everything else in this
+# folder (personal documents, launch configs) is ignored.
+/*
+!/.gitignore
+!/README.md
+!/inextis_studio/
+!/booth_demo/
+
+# Secrets
+.env*
+!.env.example
+
+# Dependencies and builds
+node_modules/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+__pycache__/
+
+# Generated at runtime: user projects, renders, thumbnails
+/inextis_studio/data/projects/
+/inextis_studio/public/projects/
+
+# Blender demo outputs (copies used by the app live in inextis_studio/public/booths)
+/booth_demo/output/
+*.blend1
+
+.DS_Store

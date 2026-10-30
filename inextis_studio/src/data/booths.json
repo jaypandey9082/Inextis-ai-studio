@@ -1,0 +1,1110 @@
+[
+  {
+    "slug": "nova-tech-pavilion",
+    "file": "nova_tech_pavilion",
+    "title": "NOVA ENERGY - Tech Pavilion",
+    "brief": "14 x 12 m, four sides open. Energy-tech client. Hero LED ring with sweeping LED ribbons, reception, interactive kiosks, presentation zone, lounge. Purple-blue palette.",
+    "size": [
+      14,
+      12
+    ],
+    "partsCount": 33,
+    "client": "NOVA Energy",
+    "sector": "Energy tech",
+    "status": "Ready for review",
+    "owner": "Design team",
+    "lines": [
+      {
+        "category": "AV / LED",
+        "item": "HeroRing flexible LED ribbon 21.2 m x 1.15 m",
+        "qty": 24.37,
+        "unit": "sq m",
+        "rate": 14000,
+        "amount": 341180
+      },
+      {
+        "category": "AV / LED",
+        "item": "RibbonSweepRight flexible LED ribbon 9.8 m x 1.5 m",
+        "qty": 14.64,
+        "unit": "sq m",
+        "rate": 14000,
+        "amount": 204960
+      },
+      {
+        "category": "AV / LED",
+        "item": "StoreBlockLED LED screen 3.7x4.2 m",
+        "qty": 15.54,
+        "unit": "sq m",
+        "rate": 9000,
+        "amount": 139860
+      },
+      {
+        "category": "AV / LED",
+        "item": "BacklitWall LED screen 4.0x2.4 m",
+        "qty": 9.6,
+        "unit": "sq m",
+        "rate": 9000,
+        "amount": 86400
+      },
+      {
+        "category": "AV / LED",
+        "item": "RibbonSweepBack flexible LED ribbon 5.3 m x 1.15 m",
+        "qty": 6.12,
+        "unit": "sq m",
+        "rate": 14000,
+        "amount": 85680
+      },
+      {
+        "category": "AV / LED",
+        "item": "StageLED LED screen 2.9x1.7 m",
+        "qty": 4.93,
+        "unit": "sq m",
+        "rate": 9000,
+        "amount": 44370
+      },
+      {
+        "category": "AV / LED",
+        "item": "Interactive touch table 55 in",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 35000,
+        "amount": 35000
+      },
+      {
+        "category": "AV / LED",
+        "item": "Interactive touch table 55 in",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 35000,
+        "amount": 35000
+      },
+      {
+        "category": "AV / LED",
+        "item": "CoreScreen LED screen 1.5x1.9 m",
+        "qty": 2.85,
+        "unit": "sq m",
+        "rate": 9000,
+        "amount": 25650
+      },
+      {
+        "category": "AV / LED",
+        "item": "Digital totem 43 in",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 18000,
+        "amount": 18000
+      },
+      {
+        "category": "AV / LED",
+        "item": "Digital totem 43 in",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 18000,
+        "amount": 18000
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (tree)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1800,
+        "amount": 1800
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Fabrication",
+        "item": "CoreDrum curved fascia band 12.5 m x 2.9 m",
+        "qty": 389.16,
+        "unit": "sq ft",
+        "rate": 650,
+        "amount": 252954
+      },
+      {
+        "category": "Fabrication",
+        "item": "StoreBlock structure 4.0x2.4x4.5 m (laminate)",
+        "qty": 620.01,
+        "unit": "sq ft",
+        "rate": 320,
+        "amount": 198403
+      },
+      {
+        "category": "Fabrication",
+        "item": "StageBlock structure 3.2x1.8x3.4 m (laminate)",
+        "qty": 365.98,
+        "unit": "sq ft",
+        "rate": 320,
+        "amount": 117114
+      },
+      {
+        "category": "Fabrication",
+        "item": "BackSlats slat wall 5.8 m x 3.4 m (32 slats)",
+        "qty": 212.27,
+        "unit": "sq ft",
+        "rate": 380,
+        "amount": 80663
+      },
+      {
+        "category": "Fabrication",
+        "item": "BacklitWall frame",
+        "qty": 124.97,
+        "unit": "sq ft",
+        "rate": 320,
+        "amount": 39990
+      },
+      {
+        "category": "Fabrication",
+        "item": "RingCap curved fascia band 21.8 m x 0.22 m",
+        "qty": 51.66,
+        "unit": "sq ft",
+        "rate": 650,
+        "amount": 33579
+      },
+      {
+        "category": "Fabrication",
+        "item": "RingPost1 support column 3.6 m",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 8000,
+        "amount": 8000
+      },
+      {
+        "category": "Fabrication",
+        "item": "RingPost2 support column 3.6 m",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 8000,
+        "amount": 8000
+      },
+      {
+        "category": "Flooring",
+        "item": "Raised platform 14x12 m, white finish",
+        "qty": 1808.35,
+        "unit": "sq ft",
+        "rate": 180,
+        "amount": 325503
+      },
+      {
+        "category": "Furniture",
+        "item": "Reception counter 2.6 m with logo",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 45000,
+        "amount": 45000
+      },
+      {
+        "category": "Furniture",
+        "item": "Round table",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 2500,
+        "amount": 2500
+      },
+      {
+        "category": "Furniture",
+        "item": "Round table",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 2500,
+        "amount": 2500
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Graphics",
+        "item": "Brand lettering 'NOVA'",
+        "qty": 24.22,
+        "unit": "sq ft",
+        "rate": 90,
+        "amount": 2180
+      },
+      {
+        "category": "Graphics",
+        "item": "Brand lettering 'NOVA ENERGY'",
+        "qty": 13.69,
+        "unit": "sq ft",
+        "rate": 90,
+        "amount": 1232
+      },
+      {
+        "category": "Lighting",
+        "item": "LED edge strip around platform",
+        "qty": 52,
+        "unit": "rm",
+        "rate": 450,
+        "amount": 23400
+      },
+      {
+        "category": "Lighting",
+        "item": "FloorLine1 floor light line",
+        "qty": 8.83,
+        "unit": "rm",
+        "rate": 450,
+        "amount": 3974
+      },
+      {
+        "category": "Lighting",
+        "item": "FloorLine2 floor light line",
+        "qty": 7.54,
+        "unit": "rm",
+        "rate": 450,
+        "amount": 3393
+      },
+      {
+        "category": "Lighting",
+        "item": "Spot / profile light",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1500,
+        "amount": 1500
+      },
+      {
+        "category": "Lighting",
+        "item": "Spot / profile light",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1500,
+        "amount": 1500
+      },
+      {
+        "category": "Lighting",
+        "item": "Spot / profile light",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1500,
+        "amount": 1500
+      },
+      {
+        "category": "Lighting",
+        "item": "Spot / profile light",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1500,
+        "amount": 1500
+      }
+    ],
+    "byCategory": {
+      "AV / LED": 1034100,
+      "Decor": 5400,
+      "Fabrication": 738703,
+      "Flooring": 325503,
+      "Furniture": 68000,
+      "Graphics": 3412,
+      "Lighting": 36767
+    },
+    "totals": {
+      "Subtotal": 2211884,
+      "Install & dismantle 12%": 265426,
+      "Management fee 15%": 371597,
+      "Total before GST": 2848907,
+      "GST 18%": 512803,
+      "Total": 3361710
+    }
+  },
+  {
+    "slug": "greenleaf-eco-pavilion",
+    "file": "greenleaf_eco_pavilion",
+    "title": "GREENLEAF FUELS - Eco Pavilion",
+    "brief": "18 x 6 m inline stall, front open. Fuel brand with a green-energy story. Natural wood, moss wall, grass carpet, bamboo slats, touch tables, digital totems, lounge, lots of plants.",
+    "size": [
+      18,
+      6
+    ],
+    "partsCount": 31,
+    "client": "GreenLeaf Fuels",
+    "sector": "Fuels / green energy",
+    "status": "Ready for review",
+    "owner": "Design team",
+    "lines": [
+      {
+        "category": "AV / LED",
+        "item": "StoryWall LED screen 3.6x2.0 m",
+        "qty": 7.2,
+        "unit": "sq m",
+        "rate": 9000,
+        "amount": 64800
+      },
+      {
+        "category": "AV / LED",
+        "item": "Interactive touch table 55 in",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 35000,
+        "amount": 35000
+      },
+      {
+        "category": "AV / LED",
+        "item": "Interactive touch table 55 in",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 35000,
+        "amount": 35000
+      },
+      {
+        "category": "AV / LED",
+        "item": "Digital totem 43 in",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 18000,
+        "amount": 18000
+      },
+      {
+        "category": "AV / LED",
+        "item": "Digital totem 43 in",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 18000,
+        "amount": 18000
+      },
+      {
+        "category": "AV / LED",
+        "item": "MossTV 55 in display",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 6500,
+        "amount": 6500
+      },
+      {
+        "category": "AV / LED",
+        "item": "BambooTV 55 in display",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 6500,
+        "amount": 6500
+      },
+      {
+        "category": "Decor",
+        "item": "MossWall preserved moss wall 3.4x4.3 m",
+        "qty": 157.37,
+        "unit": "sq ft",
+        "rate": 450,
+        "amount": 70816
+      },
+      {
+        "category": "Decor",
+        "item": "HeaderGrass grass topping",
+        "qty": 135.63,
+        "unit": "sq ft",
+        "rate": 70,
+        "amount": 9494
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (tree)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1800,
+        "amount": 1800
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (tree)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1800,
+        "amount": 1800
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Decor",
+        "item": "Live plant (bush)",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 600,
+        "amount": 600
+      },
+      {
+        "category": "Fabrication",
+        "item": "Tower structure 4.0x6.0x5.0 m (wood)",
+        "qty": 1076.4,
+        "unit": "sq ft",
+        "rate": 420,
+        "amount": 452088
+      },
+      {
+        "category": "Fabrication",
+        "item": "BackWall wall 18x4.0 m (wood)",
+        "qty": 775.01,
+        "unit": "sq ft",
+        "rate": 420,
+        "amount": 325504
+      },
+      {
+        "category": "Fabrication",
+        "item": "RightWall wall 6.0x4.7 m (wood)",
+        "qty": 303.54,
+        "unit": "sq ft",
+        "rate": 420,
+        "amount": 127487
+      },
+      {
+        "category": "Fabrication",
+        "item": "HeaderBeam header beam 14.0 m",
+        "qty": 241.11,
+        "unit": "sq ft",
+        "rate": 420,
+        "amount": 101266
+      },
+      {
+        "category": "Fabrication",
+        "item": "BambooR bamboo slat panel 2.7 m",
+        "qty": 87.19,
+        "unit": "sq ft",
+        "rate": 380,
+        "amount": 33132
+      },
+      {
+        "category": "Fabrication",
+        "item": "StoryWall frame",
+        "qty": 96.55,
+        "unit": "sq ft",
+        "rate": 320,
+        "amount": 30896
+      },
+      {
+        "category": "Fabrication",
+        "item": "BambooL bamboo slat panel 2.2 m",
+        "qty": 71.04,
+        "unit": "sq ft",
+        "rate": 380,
+        "amount": 26995
+      },
+      {
+        "category": "Fabrication",
+        "item": "Store room door with lock",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 12000,
+        "amount": 12000
+      },
+      {
+        "category": "Fabrication",
+        "item": "FrontPost support column 3.9 m",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 8000,
+        "amount": 8000
+      },
+      {
+        "category": "Flooring",
+        "item": "Raised platform 18x6 m, wood finish",
+        "qty": 1162.51,
+        "unit": "sq ft",
+        "rate": 180,
+        "amount": 209252
+      },
+      {
+        "category": "Flooring",
+        "item": "GrassCarpet artificial grass 10.5x2.8 m",
+        "qty": 316.46,
+        "unit": "sq ft",
+        "rate": 70,
+        "amount": 22152
+      },
+      {
+        "category": "Furniture",
+        "item": "Reception counter 2.2 m with logo",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 45000,
+        "amount": 45000
+      },
+      {
+        "category": "Furniture",
+        "item": "Lounge sofa",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 6000,
+        "amount": 6000
+      },
+      {
+        "category": "Furniture",
+        "item": "Round table",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 2500,
+        "amount": 2500
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Furniture",
+        "item": "Chair",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1200,
+        "amount": 1200
+      },
+      {
+        "category": "Graphics",
+        "item": "HeaderBeam printed header graphic",
+        "qty": 120.56,
+        "unit": "sq ft",
+        "rate": 90,
+        "amount": 10850
+      },
+      {
+        "category": "Graphics",
+        "item": "Brand lettering 'GREENLEAF FUELS  |  ENERGY FOR A GREENER INDIA'",
+        "qty": 44.56,
+        "unit": "sq ft",
+        "rate": 90,
+        "amount": 4010
+      },
+      {
+        "category": "Graphics",
+        "item": "Brand lettering 'GREENLEAF'",
+        "qty": 17.09,
+        "unit": "sq ft",
+        "rate": 90,
+        "amount": 1538
+      },
+      {
+        "category": "Graphics",
+        "item": "Brand lettering 'POWERING A GREENER TOMORROW'",
+        "qty": 11.63,
+        "unit": "sq ft",
+        "rate": 90,
+        "amount": 1047
+      },
+      {
+        "category": "Lighting",
+        "item": "Spot / profile light",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1500,
+        "amount": 1500
+      },
+      {
+        "category": "Lighting",
+        "item": "Spot / profile light",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1500,
+        "amount": 1500
+      },
+      {
+        "category": "Lighting",
+        "item": "Spot / profile light",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1500,
+        "amount": 1500
+      },
+      {
+        "category": "Lighting",
+        "item": "Spot / profile light",
+        "qty": 1,
+        "unit": "nos",
+        "rate": 1500,
+        "amount": 1500
+      }
+    ],
+    "byCategory": {
+      "AV / LED": 183800,
+      "Decor": 107910,
+      "Fabrication": 1117368,
+      "Flooring": 231404,
+      "Furniture": 57100,
+      "Graphics": 17445,
+      "Lighting": 6000
+    },
+    "totals": {
+      "Subtotal": 1721029,
+      "Install & dismantle 12%": 206523,
+      "Management fee 15%": 289133,
+      "Total before GST": 2216685,
+      "GST 18%": 399003,
+      "Total": 2615688
+    }
+  }
+]

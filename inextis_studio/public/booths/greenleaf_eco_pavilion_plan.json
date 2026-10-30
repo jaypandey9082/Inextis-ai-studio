@@ -1,0 +1,360 @@
+{
+  "name": "greenleaf_eco_pavilion",
+  "title": "GREENLEAF FUELS - Eco Pavilion",
+  "brief": "18 x 6 m inline stall, front open. Fuel brand with a green-energy story. Natural wood, moss wall, grass carpet, bamboo slats, touch tables, digital totems, lounge, lots of plants.",
+  "size": [
+    18,
+    6
+  ],
+  "platform": {
+    "finish": "wood",
+    "height": 0.1,
+    "edge_light": false
+  },
+  "palette": {
+    "screen": [
+      [
+        0.02,
+        0.12,
+        0.3
+      ],
+      [
+        0.1,
+        0.55,
+        0.9
+      ],
+      [
+        0.95,
+        0.75,
+        0.2
+      ]
+    ],
+    "glow": [
+      1.0,
+      0.85,
+      0.6
+    ]
+  },
+  "parts": [
+    {
+      "type": "wall",
+      "name": "BackWall",
+      "w": 18,
+      "h": 4.0,
+      "x": 0,
+      "y": 2.94,
+      "rot": 0,
+      "finish": "wood"
+    },
+    {
+      "type": "block",
+      "name": "Tower",
+      "size": [
+        4.0,
+        6.0,
+        5.0
+      ],
+      "center": [
+        -7.0,
+        0.0
+      ],
+      "finish": "wood"
+    },
+    {
+      "type": "moss_panel",
+      "name": "MossWall",
+      "w": 3.4,
+      "h": 4.3,
+      "x": -7.0,
+      "y": -3.02,
+      "z": 2.4
+    },
+    {
+      "type": "tv",
+      "name": "MossTV",
+      "w": 1.3,
+      "h": 0.75,
+      "x": -7.0,
+      "y": -3.08,
+      "z": 2.7
+    },
+    {
+      "type": "text",
+      "body": "GREENLEAF",
+      "x": -7.0,
+      "y": -3.1,
+      "z": 3.9,
+      "size": 0.42,
+      "mat": "white_glow"
+    },
+    {
+      "type": "wall",
+      "name": "RightWall",
+      "w": 6.0,
+      "h": 4.7,
+      "x": 8.94,
+      "y": 0,
+      "rot": 90,
+      "finish": "wood"
+    },
+    {
+      "type": "beam",
+      "name": "HeaderBeam",
+      "x0": -5.0,
+      "x1": 9.0,
+      "y": -2.55,
+      "z": 4.3,
+      "depth": 0.9,
+      "h": 0.8
+    },
+    {
+      "type": "grass_strip",
+      "name": "HeaderGrass",
+      "x0": -5.0,
+      "x1": 9.0,
+      "y": -2.55,
+      "z": 4.72,
+      "depth": 0.9
+    },
+    {
+      "type": "text",
+      "body": "GREENLEAF FUELS  |  ENERGY FOR A GREENER INDIA",
+      "x": 2.2,
+      "y": -3.04,
+      "z": 4.38,
+      "size": 0.3,
+      "mat": "brand_green"
+    },
+    {
+      "type": "column",
+      "name": "FrontPost",
+      "x": 1.0,
+      "y": -2.45,
+      "h": 3.9,
+      "white": true
+    },
+    {
+      "type": "bamboo_panel",
+      "name": "BambooL",
+      "x0": -3.9,
+      "x1": -1.7,
+      "y": 2.8,
+      "h": 3.0
+    },
+    {
+      "type": "bamboo_panel",
+      "name": "BambooR",
+      "x0": 4.9,
+      "x1": 7.6,
+      "y": 2.8,
+      "h": 3.0
+    },
+    {
+      "type": "door",
+      "name": "StoreDoor",
+      "x": 2.6,
+      "y": 2.86,
+      "w": 1.0,
+      "h": 2.15
+    },
+    {
+      "type": "tv",
+      "name": "BambooTV",
+      "w": 1.3,
+      "h": 0.75,
+      "x": 6.25,
+      "y": 2.72,
+      "z": 2.2
+    },
+    {
+      "type": "grass_patch",
+      "name": "GrassCarpet",
+      "w": 10.5,
+      "d": 2.8,
+      "x": 2.2,
+      "y": -0.9
+    },
+    {
+      "type": "touch_table",
+      "x": -1.6,
+      "y": -0.8,
+      "rot": 0
+    },
+    {
+      "type": "touch_table",
+      "x": 5.6,
+      "y": -0.8,
+      "rot": 0
+    },
+    {
+      "type": "totem",
+      "x": 0.7,
+      "y": -1.5,
+      "rot": 0
+    },
+    {
+      "type": "totem",
+      "x": 3.6,
+      "y": -1.0,
+      "rot": 0
+    },
+    {
+      "type": "sofa",
+      "name": "LoungeSofa",
+      "x": -3.0,
+      "y": 1.95,
+      "w": 1.9,
+      "rot": 0
+    },
+    {
+      "type": "plant_row",
+      "x0": -4.6,
+      "x1": 8.3,
+      "y": -2.72,
+      "count": 11,
+      "size": 0.85
+    },
+    {
+      "type": "plant",
+      "x": 8.4,
+      "y": -2.3,
+      "size": 1.6,
+      "kind": "tree"
+    },
+    {
+      "type": "plant",
+      "x": -4.6,
+      "y": -1.6,
+      "size": 1.6,
+      "kind": "tree"
+    },
+    {
+      "type": "plant",
+      "x": -4.4,
+      "y": 2.3,
+      "size": 1.0,
+      "kind": "bush"
+    },
+    {
+      "type": "plant",
+      "x": 8.2,
+      "y": 2.3,
+      "size": 1.0,
+      "kind": "bush"
+    },
+    {
+      "type": "hanging_plants",
+      "x0": -4.0,
+      "x1": 8.0,
+      "y": -2.35,
+      "z": 3.55,
+      "count": 7
+    },
+    {
+      "type": "roof_planters",
+      "x0": -8.6,
+      "x1": -5.4,
+      "y0": -2.6,
+      "y1": 2.6,
+      "z": 5.0,
+      "nx": 4,
+      "ny": 5
+    },
+    {
+      "type": "led_panel",
+      "name": "StoryWall",
+      "w": 3.6,
+      "h": 2.0,
+      "x": 0.0,
+      "y": 2.84,
+      "z": 2.2,
+      "rot": 0,
+      "content": "screen",
+      "frame": true
+    },
+    {
+      "type": "text",
+      "body": "POWERING A GREENER TOMORROW",
+      "x": 0.0,
+      "y": 2.72,
+      "z": 3.5,
+      "size": 0.2,
+      "mat": "brand_green"
+    },
+    {
+      "type": "counter",
+      "name": "InfoDesk",
+      "x": -2.6,
+      "y": -1.7,
+      "w": 2.2,
+      "label": "GREENLEAF"
+    },
+    {
+      "type": "lounge",
+      "name": "CafeTable",
+      "x": 7.4,
+      "y": 1.2,
+      "seats": 3
+    }
+  ],
+  "lighting": {
+    "top_energy": 1400,
+    "tint": [
+      1.0,
+      0.94,
+      0.85
+    ],
+    "spots": [
+      [
+        -3,
+        -7,
+        6
+      ],
+      [
+        3,
+        -7,
+        6
+      ],
+      [
+        8,
+        -7,
+        6
+      ],
+      [
+        -7,
+        -8,
+        7
+      ]
+    ]
+  },
+  "views": [
+    {
+      "name": "aerial",
+      "loc": [
+        -10.5,
+        -15.5,
+        9.0
+      ],
+      "target": [
+        1.6,
+        0.2,
+        1.5
+      ],
+      "lens": 28
+    },
+    {
+      "name": "front",
+      "loc": [
+        11.5,
+        -9.0,
+        1.8
+      ],
+      "target": [
+        0.0,
+        0.6,
+        2.0
+      ],
+      "lens": 22
+    }
+  ]
+}

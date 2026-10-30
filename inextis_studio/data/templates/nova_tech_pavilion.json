@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "name": "nova_tech_pavilion",
+  "title": "NOVA ENERGY - Tech Pavilion",
+  "brief": "14 x 12 m, four sides open. Energy-tech client. Hero LED ring with sweeping LED ribbons, reception, interactive kiosks, presentation zone, lounge. Purple-blue palette.",
+  "size": [
+    14,
+    12
+  ],
+  "openSides": [
+    "front",
+    "back",
+    "left",
+    "right"
+  ],
+  "heightLimit": 6,
+  "platform": {
+    "height": 0.12,
+    "finish": "white",
+    "edgeLight": true,
+    "accent": [
+      0.35,
+      0.45,
+      1
+    ]
+  },
+  "palette": {
+    "led": [
+      [
+        0.42,
+        0.04,
+        1
+      ],
+      [
+        0.16,
+        0.12,
+        1
+      ],
+      [
+        0,
+        0.38,
+        1
+      ]
+    ],
+    "screen": [
+      [
+        0.01,
+        0.02,
+        0.12
+      ],
+      [
+        0.05,
+        0.25,
+        0.9
+      ],
+      [
+        0.45,
+        0.7,
+        1
+      ]
+    ],
+    "glow": [
+      0.3,
+      0.5,
+      1
+    ]
+  },
+  "lighting": {
+    "topEnergy": 1300,
+    "tint": [
+      0.85,
+      0.9,
+      1
+    ],
+    "spots": [
+      [
+        -6,
+        -6,
+        6
+      ],
+      [
+        6,
+        -6,
+        6
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        -7,
+        5,
+        6
+      ]
+    ]
+  },
+  "parts": [
+    {
+      "id": "block-001",
+      "type": "block",
+      "name": "StoreBlock",
+      "x": -4.6,
+      "y": 4.4,
+      "rot": 0,
+      "p": {
+        "w": 4,
+        "d": 2.4,
+        "h": 4.5,
+        "finish": "laminate"
+      }
+    },
+    {
+      "id": "led_panel-002",
+      "type": "led_panel",
+      "name": "StoreBlockLED",
+      "x": -4.6,
+      "y": 3.16,
+      "rot": 0,
+      "p": {
+        "w": 3.7,
+        "h": 4.2,
+        "z": 2.32,
+        "content": "dots",
+        "frame": false
+      }
+    },
+    {
+      "id": "block-003",
+      "type": "block",
+      "name": "StageBlock",
+      "x": 5,
+      "y": 4.7,
+      "rot": 0,
+      "p": {
+        "w": 3.2,
+        "d": 1.8,
+        "h": 3.4,
+        "finish": "laminate"
+      }
+    },
+    {
+      "id": "led_panel-004",
+      "type": "led_panel",
+      "name": "StageLED",
+      "x": 5,
+      "y": 3.76,
+      "rot": 0,
+      "p": {
+        "w": 2.9,
+        "h": 1.7,
+        "z": 1.9,
+        "content": "screen",
+        "frame": false
+      }
+    },
+    {
+      "id": "slat_wall-005",
+      "type": "slat_wall",
+      "name": "BackSlats",
+      "x": 0.3999999999999999,
+      "y": 5.45,
+      "rot": 0,
+      "p": {
+        "w": 5.8,
+        "h": 3.4,
+        "backlit": true
+      }
+    },
+    {
+      "id": "white_band-006",
+      "type": "white_band",
+      "name": "CoreDrum",
+      "x": 0,
+      "y": 0.6,
+      "rot": 0,
+      "p": {
+        "kind": "arc",
+        "r": 2,
+        "a0": 0,
+        "a1": 360,
+        "onFloor": true,
+        "height": 2.9
+      }
+    },
+    {
+      "id": "led_panel-007",
+      "type": "led_panel",
+      "name": "CoreScreen",
+      "x": 0,
+      "y": -1.48,
+      "rot": 0,
+      "p": {
+        "w": 1.5,
+        "h": 1.9,
+        "z": 1.6,
+        "content": "screen",
+        "frame": false
+      }
+    },
+    {
+      "id": "led_ribbon-008",
+      "type": "led_ribbon",
+      "name": "HeroRing",
+      "x": 0,
+      "y": 0,
+      "rot": 0,
+      "p": {
+        "kind": "arc",
+        "r": 3.4,
+        "a0": 0,
+        "a1": 360,
+        "z0": 3.6,
+        "height": 1.15
+      }
+    },
+    {
+      "id": "white_band-009",
+      "type": "white_band",
+      "name": "RingCap",
+      "x": 0,
+      "y": 0,
+      "rot": 0,
+      "p": {
+        "kind": "arc",
+        "r": 3.5,
+        "a0": 0,
+        "a1": 360,
+        "z0": 4.75,
+        "height": 0.22
+      }
+    },
+    {
+      "id": "led_ribbon-00a",
+      "type": "led_ribbon",
+      "name": "RibbonSweepRight",
+      "x": 0,
+      "y": 0,
+      "rot": 0,
+      "p": {
+        "kind": "spiral",
+        "a0": -90,
+        "a1": 8,
+        "z0": 3.6,
+        "z1": 0.12,
+        "r0": 3.4,
+        "r1": 6.4,
+        "height": 1.5
+      }
+    },
+    {
+      "id": "led_ribbon-00b",
+      "type": "led_ribbon",
+      "name": "RibbonSweepBack",
+      "x": 0,
+      "y": 0,
+      "rot": 0,
+      "p": {
+        "kind": "spiral",
+        "a0": 92,
+        "a1": 148,
+        "z0": 3.6,
+        "z1": 3.1,
+        "r0": 3.4,
+        "r1": 5.9,
+        "height": 1.15
+      }
+    },
+    {
+      "id": "column-00c",
+      "type": "column",
+      "name": "RingPost1",
+      "x": 2.35,
+      "y": -2.35,
+      "rot": 0,
+      "p": {
+        "h": 3.6,
+        "white": true
+      }
+    },
+    {
+      "id": "column-00d",
+      "type": "column",
+      "name": "RingPost2",
+      "x": -2.35,
+      "y": 2.35,
+      "rot": 0,
+      "p": {
+        "h": 3.6,
+        "white": true
+      }
+    },
+    {
+      "id": "floor_arc-00e",
+      "type": "floor_arc",
+      "name": "FloorLine1",
+      "x": 0,
+      "y": 0,
+      "rot": 0,
+      "p": {
+        "kind": "arc",
+        "r": 4.6,
+        "a0": 190,
+        "a1": 300,
+        "onFloor": true
+      }
+    },
+    {
+      "id": "floor_arc-00f",
+      "type": "floor_arc",
+      "name": "FloorLine2",
+      "x": 0,
+      "y": 0,
+      "rot": 0,
+      "p": {
+        "kind": "arc",
+        "r": 5.4,
+        "a0": 120,
+        "a1": 200,
+        "onFloor": true
+      }
+    },
+    {
+      "id": "text-00g",
+      "type": "text",
+      "name": "NOVA ENERGY",
+      "x": 0,
+      "y": -3.62,
+      "rot": 0,
+      "p": {
+        "body": "NOVA ENERGY",
+        "size": 0.34,
+        "z": 4.18,
+        "style": "white_glow"
+      }
+    },
+    {
+      "id": "text-00h",
+      "type": "text",
+      "name": "NOVA",
+      "x": -4.6,
+      "y": 3.08,
+      "rot": 0,
+      "p": {
+        "body": "NOVA",
+        "size": 0.75,
+        "z": 3.4,
+        "style": "white_glow"
+      }
+    },
+    {
+      "id": "counter-00i",
+      "type": "counter",
+      "name": "Reception",
+      "x": 0,
+      "y": -2.75,
+      "rot": 0,
+      "p": {
+        "w": 2.6,
+        "label": "WELCOME"
+      }
+    },
+    {
+      "id": "led_panel-00j",
+      "type": "led_panel",
+      "name": "BacklitWall",
+      "x": 3.4,
+      "y": -5.3,
+      "rot": 0,
+      "p": {
+        "w": 4,
+        "h": 2.4,
+        "z": 1.32,
+        "content": "dots_ice",
+        "frame": true
+      }
+    },
+    {
+      "id": "touch_table-00k",
+      "type": "touch_table",
+      "name": "touch_table",
+      "x": -4.4,
+      "y": -3.4,
+      "rot": 0,
+      "p": {}
+    },
+    {
+      "id": "touch_table-00l",
+      "type": "touch_table",
+      "name": "touch_table",
+      "x": -2.4,
+      "y": -4.5,
+      "rot": 0,
+      "p": {}
+    },
+    {
+      "id": "totem-00m",
+      "type": "totem",
+      "name": "totem",
+      "x": -6.2,
+      "y": -1.2,
+      "rot": -68.75493541569878,
+      "p": {}
+    },
+    {
+      "id": "totem-00n",
+      "type": "totem",
+      "name": "totem",
+      "x": 1.6,
+      "y": -5.4,
+      "rot": 0,
+      "p": {}
+    },
+    {
+      "id": "seating_rows-00o",
+      "type": "seating_rows",
+      "name": "seating_rows",
+      "x": 4.925,
+      "y": 1.6500000000000001,
+      "rot": 0,
+      "p": {
+        "rows": 2,
+        "cols": 4,
+        "dx": 0.75,
+        "dy": 0.9
+      }
+    },
+    {
+      "id": "lounge-00p",
+      "type": "lounge",
+      "name": "LoungeL",
+      "x": -4.8,
+      "y": 0.4,
+      "rot": 0,
+      "p": {
+        "seats": 4
+      }
+    },
+    {
+      "id": "lounge-00q",
+      "type": "lounge",
+      "name": "LoungeR",
+      "x": 3.4,
+      "y": -2,
+      "rot": 0,
+      "p": {
+        "seats": 3
+      }
+    },
+    {
+      "id": "plant-00r",
+      "type": "plant",
+      "name": "plant",
+      "x": -6.5,
+      "y": 2.6,
+      "rot": 0,
+      "p": {
+        "size": 1,
+        "kind": "bush"
+      }
+    },
+    {
+      "id": "plant-00s",
+      "type": "plant",
+      "name": "plant",
+      "x": 6.5,
+      "y": 5.6,
+      "rot": 0,
+      "p": {
+        "size": 1,
+        "kind": "bush"
+      }
+    },
+    {
+      "id": "plant-00t",
+      "type": "plant",
+      "name": "plant",
+      "x": -0.9,
+      "y": -2.95,
+      "rot": 0,
+      "p": {
+        "size": 0.7,
+        "kind": "bush"
+      }
+    },
+    {
+      "id": "plant-00u",
+      "type": "plant",
+      "name": "plant",
+      "x": 0.9,
+      "y": -2.95,
+      "rot": 0,
+      "p": {
+        "size": 0.7,
+        "kind": "bush"
+      }
+    },
+    {
+      "id": "plant-00v",
+      "type": "plant",
+      "name": "plant",
+      "x": -6.4,
+      "y": -5.4,
+      "rot": 0,
+      "p": {
+        "size": 1.3,
+        "kind": "tree"
+      }
+    },
+    {
+      "id": "plant-00w",
+      "type": "plant",
+      "name": "plant",
+      "x": 6.4,
+      "y": -5.4,
+      "rot": 0,
+      "p": {
+        "size": 1,
+        "kind": "bush"
+      }
+    },
+    {
+      "id": "plant-00x",
+      "type": "plant",
+      "name": "plant",
+      "x": 2.4,
+      "y": 5.5,
+      "rot": 0,
+      "p": {
+        "size": 0.9,
+        "kind": "bush"
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "aerial",
+      "loc": [
+        -14,
+        -14.5,
+        12
+      ],
+      "target": [
+        0.3,
+        0.2,
+        1.6
+      ],
+      "lens": 32
+    },
+    {
+      "name": "front",
+      "loc": [
+        3.2,
+        -12.5,
+        2
+      ],
+      "target": [
+        -0.3,
+        0,
+        2.4
+      ],
+      "lens": 22
+    }
+  ]
+}

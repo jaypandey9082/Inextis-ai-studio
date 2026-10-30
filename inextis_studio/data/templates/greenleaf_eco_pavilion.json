@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "name": "greenleaf_eco_pavilion",
+  "title": "GREENLEAF FUELS - Eco Pavilion",
+  "brief": "18 x 6 m inline stall, front open. Fuel brand with a green-energy story. Natural wood, moss wall, grass carpet, bamboo slats, touch tables, digital totems, lounge, lots of plants.",
+  "size": [
+    18,
+    6
+  ],
+  "openSides": [
+    "front"
+  ],
+  "heightLimit": 6,
+  "platform": {
+    "height": 0.1,
+    "finish": "wood",
+    "edgeLight": false,
+    "accent": [
+      0.3,
+      0.6,
+      1
+    ]
+  },
+  "palette": {
+    "led": [
+      [
+        0.5,
+        0.2,
+        1
+      ],
+      [
+        0.1,
+        0.5,
+        1
+      ]
+    ],
+    "screen": [
+      [
+        0.02,
+        0.12,
+        0.3
+      ],
+      [
+        0.1,
+        0.55,
+        0.9
+      ],
+      [
+        0.95,
+        0.75,
+        0.2
+      ]
+    ],
+    "glow": [
+      1,
+      0.85,
+      0.6
+    ]
+  },
+  "lighting": {
+    "topEnergy": 1400,
+    "tint": [
+      1,
+      0.94,
+      0.85
+    ],
+    "spots": [
+      [
+        -3,
+        -7,
+        6
+      ],
+      [
+        3,
+        -7,
+        6
+      ],
+      [
+        8,
+        -7,
+        6
+      ],
+      [
+        -7,
+        -8,
+        7
+      ]
+    ]
+  },
+  "parts": [
+    {
+      "id": "wall-001",
+      "type": "wall",
+      "name": "BackWall",
+      "x": 0,
+      "y": 2.94,
+      "rot": 0,
+      "p": {
+        "w": 18,
+        "h": 4,
+        "finish": "wood"
+      }
+    },
+    {
+      "id": "block-002",
+      "type": "block",
+      "name": "Tower",
+      "x": -7,
+      "y": 0,
+      "rot": 0,
+      "p": {
+        "w": 4,
+        "d": 6,
+        "h": 5,
+        "finish": "wood"
+      }
+    },
+    {
+      "id": "moss_panel-003",
+      "type": "moss_panel",
+      "name": "MossWall",
+      "x": -7,
+      "y": -3.02,
+      "rot": 0,
+      "p": {
+        "w": 3.4,
+        "h": 4.3,
+        "z": 2.4
+      }
+    },
+    {
+      "id": "tv-004",
+      "type": "tv",
+      "name": "MossTV",
+      "x": -7,
+      "y": -3.08,
+      "rot": 0,
+      "p": {
+        "w": 1.3,
+        "h": 0.75,
+        "z": 2.7
+      }
+    },
+    {
+      "id": "text-005",
+      "type": "text",
+      "name": "GREENLEAF",
+      "x": -7,
+      "y": -3.1,
+      "rot": 0,
+      "p": {
+        "body": "GREENLEAF",
+        "size": 0.42,
+        "z": 3.9,
+        "style": "white_glow"
+      }
+    },
+    {
+      "id": "wall-006",
+      "type": "wall",
+      "name": "RightWall",
+      "x": 8.94,
+      "y": 0,
+      "rot": 90,
+      "p": {
+        "w": 6,
+        "h": 4.7,
+        "finish": "wood"
+      }
+    },
+    {
+      "id": "beam-007",
+      "type": "beam",
+      "name": "HeaderBeam",
+      "x": 2,
+      "y": -2.55,
+      "rot": 0,
+      "p": {
+        "w": 14,
+        "depth": 0.9,
+        "h": 0.8,
+        "z": 4.3
+      }
+    },
+    {
+      "id": "grass_strip-008",
+      "type": "grass_strip",
+      "name": "HeaderGrass",
+      "x": 2,
+      "y": -2.55,
+      "rot": 0,
+      "p": {
+        "w": 14,
+        "depth": 0.9,
+        "z": 4.72
+      }
+    },
+    {
+      "id": "text-009",
+      "type": "text",
+      "name": "GREENLEAF FUELS  |  ENERGY FOR A GREENER INDIA",
+      "x": 2.2,
+      "y": -3.04,
+      "rot": 0,
+      "p": {
+        "body": "GREENLEAF FUELS  |  ENERGY FOR A GREENER INDIA",
+        "size": 0.3,
+        "z": 4.38,
+        "style": "brand_green"
+      }
+    },
+    {
+      "id": "column-00a",
+      "type": "column",
+      "name": "FrontPost",
+      "x": 1,
+      "y": -2.45,
+      "rot": 0,
+      "p": {
+        "h": 3.9,
+        "white": true
+      }
+    },
+    {
+      "id": "bamboo_panel-00b",
+      "type": "bamboo_panel",
+      "name": "BambooL",
+      "x": -2.8,
+      "y": 2.8,
+      "rot": 0,
+      "p": {
+        "w": 2.2,
+        "h": 3
+      }
+    },
+    {
+      "id": "bamboo_panel-00c",
+      "type": "bamboo_panel",
+      "name": "BambooR",
+      "x": 6.25,
+      "y": 2.8,
+      "rot": 0,
+      "p": {
+        "w": 2.6999999999999993,
+        "h": 3
+      }
+    },
+    {
+      "id": "door-00d",
+      "type": "door",
+      "name": "StoreDoor",
+      "x": 2.6,
+      "y": 2.86,
+      "rot": 0,
+      "p": {
+        "w": 1,
+        "h": 2.15
+      }
+    },
+    {
+      "id": "tv-00e",
+      "type": "tv",
+      "name": "BambooTV",
+      "x": 6.25,
+      "y": 2.72,
+      "rot": 0,
+      "p": {
+        "w": 1.3,
+        "h": 0.75,
+        "z": 2.2
+      }
+    },
+    {
+      "id": "grass_patch-00f",
+      "type": "grass_patch",
+      "name": "GrassCarpet",
+      "x": 2.2,
+      "y": -0.9,
+      "rot": 0,
+      "p": {
+        "w": 10.5,
+        "d": 2.8
+      }
+    },
+    {
+      "id": "touch_table-00g",
+      "type": "touch_table",
+      "name": "touch_table",
+      "x": -1.6,
+      "y": -0.8,
+      "rot": 0,
+      "p": {}
+    },
+    {
+      "id": "touch_table-00h",
+      "type": "touch_table",
+      "name": "touch_table",
+      "x": 5.6,
+      "y": -0.8,
+      "rot": 0,
+      "p": {}
+    },
+    {
+      "id": "totem-00i",
+      "type": "totem",
+      "name": "totem",
+      "x": 0.7,
+      "y": -1.5,
+      "rot": 0,
+      "p": {}
+    },
+    {
+      "id": "totem-00j",
+      "type": "totem",
+      "name": "totem",
+      "x": 3.6,
+      "y": -1,
+      "rot": 0,
+      "p": {}
+    },
+    {
+      "id": "sofa-00k",
+      "type": "sofa",
+      "name": "LoungeSofa",
+      "x": -3,
+      "y": 1.95,
+      "rot": 0,
+      "p": {
+        "w": 1.9
+      }
+    },
+    {
+      "id": "plant_row-00l",
+      "type": "plant_row",
+      "name": "plant_row",
+      "x": 1.8500000000000005,
+      "y": -2.72,
+      "rot": 0,
+      "p": {
+        "w": 12.9,
+        "count": 11,
+        "size": 0.85
+      }
+    },
+    {
+      "id": "plant-00m",
+      "type": "plant",
+      "name": "plant",
+      "x": 8.4,
+      "y": -2.3,
+      "rot": 0,
+      "p": {
+        "size": 1.6,
+        "kind": "tree"
+      }
+    },
+    {
+      "id": "plant-00n",
+      "type": "plant",
+      "name": "plant",
+      "x": -4.6,
+      "y": -1.6,
+      "rot": 0,
+      "p": {
+        "size": 1.6,
+        "kind": "tree"
+      }
+    },
+    {
+      "id": "plant-00o",
+      "type": "plant",
+      "name": "plant",
+      "x": -4.4,
+      "y": 2.3,
+      "rot": 0,
+      "p": {
+        "size": 1,
+        "kind": "bush"
+      }
+    },
+    {
+      "id": "plant-00p",
+      "type": "plant",
+      "name": "plant",
+      "x": 8.2,
+      "y": 2.3,
+      "rot": 0,
+      "p": {
+        "size": 1,
+        "kind": "bush"
+      }
+    },
+    {
+      "id": "hanging_plants-00q",
+      "type": "hanging_plants",
+      "name": "hanging_plants",
+      "x": 2,
+      "y": -2.35,
+      "rot": 0,
+      "p": {
+        "w": 12,
+        "count": 7,
+        "z": 3.55
+      }
+    },
+    {
+      "id": "roof_planters-00r",
+      "type": "roof_planters",
+      "name": "roof_planters",
+      "x": -7,
+      "y": 0,
+      "rot": 0,
+      "p": {
+        "w": 3.1999999999999993,
+        "d": 5.2,
+        "nx": 4,
+        "ny": 5,
+        "z": 5
+      }
+    },
+    {
+      "id": "led_panel-00s",
+      "type": "led_panel",
+      "name": "StoryWall",
+      "x": 0,
+      "y": 2.84,
+      "rot": 0,
+      "p": {
+        "w": 3.6,
+        "h": 2,
+        "z": 2.2,
+        "content": "screen",
+        "frame": true
+      }
+    },
+    {
+      "id": "text-00t",
+      "type": "text",
+      "name": "POWERING A GREENER TOMORROW",
+      "x": 0,
+      "y": 2.72,
+      "rot": 0,
+      "p": {
+        "body": "POWERING A GREENER TOMORROW",
+        "size": 0.2,
+        "z": 3.5,
+        "style": "brand_green"
+      }
+    },
+    {
+      "id": "counter-00u",
+      "type": "counter",
+      "name": "InfoDesk",
+      "x": -2.6,
+      "y": -1.7,
+      "rot": 0,
+      "p": {
+        "w": 2.2,
+        "label": "GREENLEAF"
+      }
+    },
+    {
+      "id": "lounge-00v",
+      "type": "lounge",
+      "name": "CafeTable",
+      "x": 7.4,
+      "y": 1.2,
+      "rot": 0,
+      "p": {
+        "seats": 3
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "aerial",
+      "loc": [
+        -10.5,
+        -15.5,
+        9
+      ],
+      "target": [
+        1.6,
+        0.2,
+        1.5
+      ],
+      "lens": 28
+    },
+    {
+      "name": "front",
+      "loc": [
+        11.5,
+        -9,
+        1.8
+      ],
+      "target": [
+        0,
+        0.6,
+        2
+      ],
+      "lens": 22
+    }
+  ]
+}
